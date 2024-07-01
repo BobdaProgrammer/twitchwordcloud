@@ -22,6 +22,8 @@ node twitch.js <twitch streamer name> <image mask> <contour color (optional)>
 ```
 `image mask` = the image that will contain the text in the result
 
+when running, it will update the cloud every 60 seconds, if you want to force make a cloud press c. to exit, press q
+
 # Requirements
 - node (I am using v16.15.1)
 - python (I am using 3.11.9)

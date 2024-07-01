@@ -9,8 +9,6 @@ from sys import argv
 with open('image.txt', 'r', encoding="utf8") as file:
     text = file.read()
 
-# Remove special characters using regular expressions
-
 mask_color = np.array(Image.open(argv[1]).convert("RGBA"))
 contCol = "orange"
 if len(argv)>2:
